@@ -1,0 +1,42 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color:pink;
+    border-width: 2px;
+    border-style:solid;
+    border-color: blue;
+    padding-left: 10px;
+    padding-right: 25px;
+    margin-top: 30px; */
+    /* border-radius: 50%; */
+
+/* p{
+    color: red;
+    border: 2px dashed black;
+}
+button{
+    text-align: right;
+    height: 30px;
+    width: 200px;
+    border-style: dashed;
+    border-color: pink;
+    border-width: 3px;
+} */
+div{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+    /* background-color:rgba(255, 0,0, 0.5); */
+}
+#one
+{
+background-color: rgba(0,255,0, 0.5);
+}
+#two{
+    background-color: rgba(0,255,0, 0.75);
+}
+#three{
+    background-color: rgba(0,255,0, 1);
+}
