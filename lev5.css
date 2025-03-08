@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+    text-align: center;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;  */
+    transition: all 2s ease-in 1s;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+    /* transform: rotate(47deg); */
+    /* rotate: x 93deg; */
+    /* transform: scale(2); */
+}
+
+div:hover{
+    background-color: red;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px; 
+    /* transform: scale(2); */
+}
