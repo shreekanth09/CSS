@@ -1,0 +1,26 @@
+/* *{
+    background-color: pink;
+  font-style: italic;
+}
+#headingOne{
+color: pink;
+} */
+/* #box{
+  background-color: blue;
+}
+.heading{
+  color: red;
+}
+button{
+  background-color: green;
+} */
+h3{
+  text-align: center;
+  text-decoration:dotted;
+}
+a{
+  text-decoration: none;
+}
+p{
+  text-align: start;
+}
