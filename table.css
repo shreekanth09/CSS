@@ -1,0 +1,50 @@
+/* div{
+    height: 100px;
+    width: 100px;
+    background-image: url(cat_img.jpg);
+    background-size: cover;
+    position: fixed;
+    right: 10px;
+} */
+/* div{
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    border: 2px solid black;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+}
+#one
+{
+    position: relative;
+    top: 200px;
+    left: 500px;
+    margin-top: 0px;
+}
+#two{
+    position: absolute;
+    top: 0px;
+}
+#three{
+    position: fixed;
+    right: 300px;
+} */
+#one{
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color:skyblue; */
+    text-align: center;
+}
+div{
+    background-color:red;
+    /* color: red; */
+    height: 30px;
+    text-align: center;
+}
+body{
+    background-color: lightgreen;
+    text-align: center;
+}
