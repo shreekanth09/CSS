@@ -1,4 +1,6 @@
-# 💫 About Me:
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=shreekanth09&label=Profile%20views&color=0e75b6&style=flat" alt="shreekanth09" /> </p>
+
+# 💫 About Me:               
 i am a coder..
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=shreekanth09&label=Profile%20views&color=0e75b6&style=flat" alt="shreekanth09" /> </p>
 
