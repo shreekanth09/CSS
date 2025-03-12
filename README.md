@@ -1,4 +1,4 @@
-<p align="right" height="40px"> <img src="https://komarev.com/ghpvc/?username=shreekanth09&label=Profile%20views&color=0e75b6&style=flat" alt="shreekanth09" /> </p>
+<p align="left" height="100px"> <img src="https://komarev.com/ghpvc/?username=shreekanth09&label=Profile%20views&color=0e75b6&style=flat" alt="shreekanth09" /> </p>
 
 # 💫 About Me:               
 i am a coder..
