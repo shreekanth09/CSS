@@ -1,8 +1,8 @@
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=shreekanth09&label=Profile%20views&color=0e75b6&style=flat" alt="shreekanth09" /> </p>
+<p align="right" height="40px"> <img src="https://komarev.com/ghpvc/?username=shreekanth09&label=Profile%20views&color=0e75b6&style=flat" alt="shreekanth09" /> </p>
 
 # 💫 About Me:               
 i am a coder..
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=shreekanth09&label=Profile%20views&color=0e75b6&style=flat" alt="shreekanth09" /> </p>
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rocking_shreekanth_09)
