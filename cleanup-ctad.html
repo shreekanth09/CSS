@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clang-tidy - abseil-cleanup-ctad</title>
+	/* CLION CLANG-TIDY DOCUMENTATION CSS PLACEHOLDER */
+  </head>
+  <body><div class="content"><section id="abseil-cleanup-ctad">
+<h1>abseil-cleanup-ctad</h1>
+<p>Suggests switching the initialization pattern of <code class="docutils literal notranslate"><span class="pre">absl::Cleanup</span></code>
+instances from the factory function to class template argument
+deduction (CTAD), in C++17 and higher.</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="k">auto</span><span class="w"> </span><span class="n">c1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">absl</span><span class="o">::</span><span class="n">MakeCleanup</span><span class="p">([]</span><span class="w"> </span><span class="p">{});</span>
+
+<span class="k">const</span><span class="w"> </span><span class="k">auto</span><span class="w"> </span><span class="n">c2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">absl</span><span class="o">::</span><span class="n">MakeCleanup</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">function</span><span class="o">&lt;</span><span class="kt">void</span><span class="p">()</span><span class="o">&gt;</span><span class="p">([]</span><span class="w"> </span><span class="p">{}));</span>
+</pre></div>
+</div>
+<p>becomes</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">absl</span><span class="o">::</span><span class="n">Cleanup</span><span class="w"> </span><span class="n">c1</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[]</span><span class="w"> </span><span class="p">{};</span>
+
+<span class="k">const</span><span class="w"> </span><span class="n">absl</span><span class="o">::</span><span class="n">Cleanup</span><span class="w"> </span><span class="n">c2</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">function</span><span class="o">&lt;</span><span class="kt">void</span><span class="p">()</span><span class="o">&gt;</span><span class="p">([]</span><span class="w"> </span><span class="p">{});</span>
+</pre></div>
+</div>
+</section>
+</div></body>
+</html>
